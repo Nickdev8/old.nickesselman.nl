@@ -1,7 +1,7 @@
 <div id="nottobig"></div> <!-- max the screen to 100vh (main.js) -->
 
 <div class="container physics separator header-overlay" matter>
-    <img src="images/projectsimages/contact.jpg" alt="Contact background">
+    <img src="images/projectsimages/contact.png" alt="Contact background">
     <div class="overlay-text">
         <h1>Contact</h1>
         <p>Where to find me</p>

@@ -21,7 +21,7 @@ include_once 'basics.php';
                 bugs.<br>
             </p>
         </div>
-        <img src="images/juice/partyvr.jpg" alt="PartyVR gameplay screenshot" class="img-cropped-small">
+        <img src="images/innerprojects/juice/partyvr.png" alt="PartyVR gameplay screenshot" class="img-cropped-small">
     </div>
     <h2 class="lead">My Struggle</h2>
     <p>
@@ -47,6 +47,6 @@ include_once 'basics.php';
             on
             PartyVR in the future!<br>
         </p>
-        <img src="images/juice/storepage.jpg" alt="Unfinished PartyVR build" class="img-cropped">
+        <img src="images/innerprojects/juice/storepage.png" alt="Unfinished PartyVR build" class="img-cropped">
     </div>
 </div>

@@ -6,27 +6,27 @@ $projects = [
     [
         'title' => 'HackClub: Juice',
         'description' => 'This was a 12 day long hackathon in shanghai, with Hackclub',
-        'image' => 'juice.jpg',
+        'image' => 'juice.png',
         'link' => 'juice',
         'basiclayout' => 'false'
     ],
     [
         'title'=> 'My Sticker Collection',
         'description'=> 'These are all of my own stickers i recived from hackclub.',
-        'image'=> 'stickers.jpg',
+        'image'=> 'stickers.png',
         'link'=> 'stickers',
         'basiclayout'=> 'false',
     ],
     [
         'title' => 'HackClub: neighborhood',
         'description' => 'A 3 month long, housing program in sanfansico',
-        'image' => 'neighborhood.jpg',
+        'image' => 'neighborhood.png',
         'link' => 'neighborhood',
         'basiclayout' => 'true',
         'blocks' => [
             [
                 'image' => [
-                    'images/innerprojects/neighborhood/top.jpg',
+                    'images/innerprojects/neighborhood/top.png',
                 ]
             ],
             [
@@ -135,13 +135,13 @@ $projects = [
     [
         'title' => 'HackClub: HackPad',
         'description' => 'I Designed, Solderd and Programmed a Micropad',
-        'image' => 'hackpad.jpg',
+        'image' => 'hackpad.png',
         'link' => 'hackpad',
         'basiclayout' => 'true',
         'blocks' => [
             [
                 'image' => [
-                    'images/innerprojects/hackpad/pcbfront.jpg',
+                    'images/innerprojects/hackpad/pcbfront.png',
                 ]
             ],
             [
@@ -183,7 +183,7 @@ $projects = [
             ],
             [
                 'image' => [
-                    'images/innerprojects/hackpad/pcbback.jpg',
+                    'images/innerprojects/hackpad/pcbback.png',
                 ]
             ],
 
@@ -193,7 +193,7 @@ $projects = [
     [
         'title' => 'Game: Gamejams',
         'description' => 'Some games i made',
-        'image' => 'gamejams.jpg',
+        'image' => 'gamejams.png',
         'link' => 'gamejams',
         'basiclayout' => 'true',
         'blocks' => [
@@ -206,7 +206,7 @@ $projects = [
                 Was it perfect? Far from it. But it was my launchpad into the wild world of rapid-fire game creation.
             </p>
         ',
-                'image' => 'images/innerprojects/gamejams/gmtk2024.jpg',
+                'image' => 'images/innerprojects/gamejams/gmtk2024.png',
             ],
             [
                 'title' => 'Brackeys Jam 2024.2',
@@ -226,7 +226,7 @@ $projects = [
                 Demo hiccups aside, every thunderclap taught me something new.
             </p>
         ',
-                'image' => 'images/innerprojects/gamejams/brackeys2024_2.jpg',
+                'image' => 'images/innerprojects/gamejams/brackeys2024_2.png',
             ],
             [
                 'title' => 'Fisherman’s Storm',
@@ -237,7 +237,7 @@ $projects = [
                 I crafted seaside sprites and stormy backdrops—nothing beats pixel waves crashing under a moody sky!
             </p>
         ',
-                'image' => 'images/innerprojects/gamejams/fishermans_storm.jpg',
+                'image' => 'images/innerprojects/gamejams/fishermans_storm.png',
             ],
             [
                 'title' => 'Boss Rush Jam 2025',
@@ -248,7 +248,7 @@ $projects = [
                 Teammates went MIA, so we never finished—but I still designed eerie forest tiles and kicked off the first level.  
                 Every pixel sharpened my skills, jams or no jams!
             </p>',
-                'image' => 'images/innerprojects/gamejams/bossrush2025.jpg',
+                'image' => 'images/innerprojects/gamejams/bossrush2025.png',
             ],
             [
                 'title' => 'Let’s Team Up!',
@@ -264,13 +264,13 @@ $projects = [
     [
         'title' => 'Project: 3D Printing Journey',
         'description' => 'From an off-brand clearance printer to a fully upgraded Ender 3 V2',
-        'image' => '3dprinter.jpg',
+        'image' => '3dprinter.png',
         'link' => '3dprinting',
         'basiclayout' => 'true',
         'blocks' => [
             [
                 'image' => [
-                    'images/projectsimages/3dprinter.jpg',
+                    'images/projectsimages/3dprinter.png',
                 ],
             ],
             [
@@ -312,15 +312,15 @@ $projects = [
                     <li><strong>Enclosure Mods:</strong> A custom, clip-together enclosure with built-in dust filter and LED strip mounts.</li>
                 </ul>
                 <div class="split">
-                    <img src="images/innerprojects/3dprint/old.jpg" class="img-cropped" alt="">
-                    <img src="images/innerprojects/3dprint/camera.jpg" class="img-cropped" alt="">
+                    <img src="images/innerprojects/3dprint/old.png" class="img-cropped" alt="">
+                    <img src="images/innerprojects/3dprint/camera.png" class="img-cropped" alt="">
                 </div>',
 
                 'split' => '
                 <div class="split">
-                <img src="images/innerprojects/3dprint/germo.jpg" class="img-cropped-small"alt="">
-                <img src="images/innerprojects/3dprint/telesoo.jpg" class="img-cropped-small"alt="">
-                <img src="images/innerprojects/3dprint/camera2.jpg" class="img-cropped-small"alt="">
+                <img src="images/innerprojects/3dprint/germo.png" class="img-cropped-small"alt="">
+                <img src="images/innerprojects/3dprint/telesoo.png" class="img-cropped-small"alt="">
+                <img src="images/innerprojects/3dprint/camera2.png" class="img-cropped-small"alt="">
                 </div>
                 <p>
                     Every print pushed my skills further and turned this Ender 3 V2 into a versatile fabrication station.
@@ -332,7 +332,7 @@ $projects = [
     [
         'title' => 'HackClub: HighSeas',
         'description' => 'I Designed, Solderd and Programmed a Micropad',
-        'image' => 'highseas.jpg',
+        'image' => 'highseas.png',
         'link' => 'highseas',
         'basiclayout' => 'true',
         'blocks' => [
@@ -353,9 +353,9 @@ $projects = [
             [
                 'title' => 'What i Claimed',
                 'content' => '<div style="display:grid; grid-template-columns: repeat(3, 1fr);">
-                <p>Github Stanly tumblr<br><img src="images/innerprojects/highseas/stanly.jpg" class="img-cropped"></p>
-                <p>Logitech MX Master 3S mouse<br><img src="images/innerprojects/highseas/mouse.jpg" class="img-cropped"></p>
-                <p>Raspberry pi zero<br><img src="images/innerprojects/highseas/rasp.jpg" class="img-cropped"></p>
+                <p>Github Stanly tumblr<br><img src="images/innerprojects/highseas/stanly.png" class="img-cropped"></p>
+                <p>Logitech MX Master 3S mouse<br><img src="images/innerprojects/highseas/mouse.png" class="img-cropped"></p>
+                <p>Raspberry pi zero<br><img src="images/innerprojects/highseas/rasp.png" class="img-cropped"></p>
                 <p>And many, MANY stickers. See the Stickers Projects for more info
                 <a href="/?project=stickers">My Stickers</a></p>
                 </div>'
@@ -367,14 +367,14 @@ $projects = [
                 So i went to Utecht to meet with 13 hackclubber were 6 showed up, (inc me). We went there and just walked arount the city, talking about the projects we made and the things we do.
                 <br><br>
                 Here i met: jsw08, Tuna, Emma, Verduijn, whacky, Fela and ArtyH</p>
-                <img src="images/innerprojects/highseas/group2.jpg" class="img">
-                <img src="images/innerprojects/highseas/group1.jpg" class="img">'
+                <img src="images/innerprojects/highseas/group2.png" class="img">
+                <img src="images/innerprojects/highseas/group1.png" class="img">'
             ]
         ]
     ],[
     'title'       => 'Game: Weird Chess',
     'description' => 'A hilarious chess variant that breaks all the rules',
-    'image'       => 'chess.jpg',
+    'image'       => '2.png',
     'link'        => 'chess',
     'basiclayout' => 'true',
     'blocks'      => [
@@ -419,7 +419,7 @@ $projects = [
 
         'title' => 'School: EcoNest',
         'description' => 'Ardiono project for a School assintment',
-        'image' => 'econest.jpg',
+        'image' => 'econest.png',
         'link' => 'econest',
         'basiclayout' => 'true',
         'blocks' => [
@@ -439,21 +439,21 @@ $projects = [
     [
         'title' => 'Project: My tree',
         'description' => 'This is an idea i had for visualising the prjects i made',
-        'image' => 'mytree.jpg',
+        'image' => 'mytree.png',
         'link' => 'mytree',
         'basiclayout' => 'false',
     ],
     [
         'title' => 'Project: Party VR',
         'description' => 'This is the game i made for Juice',
-        'image' => 'partyvr.jpg',
+        'image' => 'partyvr.png',
         'link' => 'partyvr',
         'basiclayout' => 'false',
     ],
     [
         'title' => 'template',
         'description' => 'Description of template',
-        'image' => 'template.jpg',
+        'image' => '2.png',
         'link' => 'template',
         'basiclayout' => 'true',
         'blocks' => [
@@ -468,7 +468,7 @@ $projects = [
             [
                 'title' => 'Gallery',
                 'content' => '<p>Here is a screenshot from Project 2.</p>',
-                'image' => 'images/innerprojects/project2-1.jpg',
+                'image' => 'images/innerprojects/stickers/main.png',
             ],
         ],
     ],

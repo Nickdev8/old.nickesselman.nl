@@ -34,7 +34,7 @@
 </div>
 
 <div class="wide container separator img-wide">
-    <img src="images/projectsimages/stickers.jpg" alt="" class="img-cropped-wide">
+    <img src="images/projectsimages/stickers.png" alt="" class="img-cropped-wide">
 </div>
 <div class="card container separator">
     <h2 class="headline">In Short</h2>
@@ -53,25 +53,25 @@
 <div class="card container separator">
     <div class="grid" id="imageGrid">
         <div class="media">
-            <img src="images/innerprojects/stickers/juiceinprogress.jpg" alt="Image">
+            <img src="images/innerprojects/juice/juiceinprogress.png" alt="Image">
         </div>
         <div class="media">
-            <img src="images/mainpagegrid/IMG-20250414-WA0275.jpg" alt="Image">
+            <img src="images/mainpagegrid/IMG-20250414-WA0275.png" alt="Image">
         </div>
         <div class="media landscape">
-            <img src="images/mainpagegrid/IMG-20250414-WA0111.jpg" alt="Image">
+            <img src="images/mainpagegrid/IMG-20250414-WA0111.png" alt="Image">
         </div>
         <div class="media landscape">
-            <img src="images/innerprojects/juice/ingrid/4.jpeg" alt="Image">
+            <img src="images/innerprojects/juice/ingrid/4.png" alt="Image">
         </div>
         <div class="media">
-            <img src="images/mainpagegrid/IMG-20250414-WA0282.jpg" alt="Image">
+            <img src="images/mainpagegrid/IMG-20250414-WA0282.png" alt="Image">
         </div>
         <div class="media landscape">
-            <img src="images/mainpagegrid/IMG-20250414-WA0180.jpg" alt="Image">
+            <img src="images/mainpagegrid/IMG-20250414-WA0180.png" alt="Image">
         </div>
         <div class="media">
-            <img src="images/mainpagegrid/IMG-20250414-WA0323.jpg" alt="Image">
+            <img src="images/mainpagegrid/IMG-20250414-WA0323.png" alt="Image">
         </div>
         <img src="" alt="">
     </div>

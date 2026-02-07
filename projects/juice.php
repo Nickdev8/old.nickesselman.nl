@@ -34,7 +34,7 @@
 </div>
 
 <div class="wide container separator img-wide">
-    <img src="images/innerprojects/juice/group.jpg" alt="" class="img-cropped-wide">
+    <img src="images/innerprojects/juice/group.png" alt="" class="img-cropped-wide">
 </div>
 <div class="split" style="justify-content: center;">
     <div class="card container separator narrow" style="margin:0; height: fit-content">
@@ -76,7 +76,7 @@
                     bugs.<br>
                 </p>
             </div>
-            <img src="images/innerprojects/juice/partyvr.jpg" alt="PartyVR gameplay screenshot"
+            <img src="images/innerprojects/juice/partyvr.png" alt="PartyVR gameplay screenshot"
                 class="img-cropped-small">
         </div>
         <h2 class="lead">My Struggle</h2>
@@ -120,9 +120,9 @@
         by.<br>
         But unfortunately, since I made a multiplayer game, I was not able to demo it.<br>
     </p>
-    <img src="images/mainpagegrid/IMG-20250414-WA0309.jpg" alt="a buetiful lit street" class="img-cropped-wide">
-    <img src="images/innerprojects/juice/firstmeal.jpg" alt="my first meal in china" class="img-cropped">
-    <img src="images/innerprojects/juice/stanger.jpg" alt="Locals taking pictures" class="img-cropped">
+    <img src="images/mainpagegrid/IMG-20250414-WA0309.png" alt="a buetiful lit street" class="img-cropped-wide">
+    <img src="images/innerprojects/juice/firstmeal.png" alt="my first meal in china" class="img-cropped">
+    <img src="images/innerprojects/juice/stanger.png" alt="Locals taking pictures" class="img-cropped">
 
     <div class="split">
         <div>
@@ -149,13 +149,13 @@
             </p>
         </div>
     </div>
-    <img src="images/innerprojects/juice/davemetpaolo.jpg" alt="Old buildings with new tech" class="img-cropped-small">
-    <img src="images/innerprojects/juice/cats.jpg" alt="Old buildings with new tech" class="img-cropped-small">
-    <img src="images/innerprojects/juice/whiteboard.jpg" alt="Old buildings with new tech" class="img-cropped-small">
-    <img src="images/innerprojects/juice/zackdemoing.jpg" alt="Old buildings with new tech" class="img-cropped-small">
-    <img src="images/innerprojects/juice/juiceinprogress.jpg" alt="Making juice with local fruits"
+    <img src="images/innerprojects/juice/davemetpaolo.png" alt="Old buildings with new tech" class="img-cropped-small">
+    <img src="images/innerprojects/juice/cats.png" alt="Old buildings with new tech" class="img-cropped-small">
+    <img src="images/innerprojects/juice/whiteboard.png" alt="Old buildings with new tech" class="img-cropped-small">
+    <img src="images/innerprojects/juice/zackdemoing.png" alt="Old buildings with new tech" class="img-cropped-small">
+    <img src="images/innerprojects/juice/juiceinprogress.png" alt="Making juice with local fruits"
         class="img-cropped-small">
-    <img src="images/innerprojects/juice/subwaywithmeinback.jpg" alt="Making juice with local fruits"
+    <img src="images/innerprojects/juice/subwaywithmeinback.png" alt="Making juice with local fruits"
         class="img-cropped-small">
 </div>
 
