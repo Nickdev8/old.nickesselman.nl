@@ -1,0 +1,72 @@
+<?php
+// Ensure no output before headers
+ob_start();
+
+$offset = max(0, isset($_GET['offset']) ? intval($_GET['offset']) : 0);
+$limit = max(1, min(50, isset($_GET['limit']) ? intval($_GET['limit']) : 15));
+
+$imageExtensions = ['jpg', 'jpeg', 'png', 'gif'];
+$videoExtensions = ['mp4', 'webm'];
+$panoExtensions = ['pano', 'PANO.jpg'];
+
+// Allow a page to select one gallery directory while keeping traversal inside images/.
+$requestedDirectory = $_GET['dir'] ?? ($dir ?? 'images');
+$requestedDirectory = trim((string) $requestedDirectory, '/');
+$directory = str_starts_with($requestedDirectory, 'images')
+    && !str_contains($requestedDirectory, '..')
+    && is_dir($requestedDirectory)
+    ? './' . $requestedDirectory
+    : './images';
+$files = [];
+$it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory, FilesystemIterator::SKIP_DOTS));
+
+foreach ($it as $file) {
+    if ($file->isFile()) {
+        // Calculate the relative path from the images folder.
+        $relative = substr($file->getPathname(), strlen($directory) + 1);
+        // Only include files that reside in a subfolder (relative path must contain a slash)
+        if (strpos($relative, '/') === false) {
+            continue;
+        }
+        $ext = strtolower(pathinfo($file->getFilename(), PATHINFO_EXTENSION));
+        if (in_array($ext, array_merge($imageExtensions, $videoExtensions, $panoExtensions))) {
+            $files[] = $file->getPathname();
+        }
+    }
+}
+
+// Scramble the file order without altering images within each file.
+shuffle($files);
+
+$totalImages = count($files);
+error_log("Total images: " . $totalImages); // Debug line
+$mediaPaths = array_slice($files, $offset, $limit);
+
+foreach ($mediaPaths as $filePath) {
+    $ext = strtolower(pathinfo($filePath, PATHINFO_EXTENSION));
+    $webPath = $filePath;
+    if (substr($webPath, 0, 2) === './') {
+        $webPath = substr($webPath, 2);
+    }
+
+    if (in_array($ext, $imageExtensions)) {
+        $imageSize = @getimagesize($filePath);
+        $isLandscape = $imageSize && $imageSize[0] > $imageSize[1];
+        $class = $isLandscape ? 'landscape' : '';
+        echo '<div data-aos="zoom-in" class="physics media ' . $class . '">
+                <img src="' . htmlspecialchars($webPath) . '" alt="Image">
+              </div>';
+    } elseif (in_array($ext, $videoExtensions)) {
+        echo '<div data-aos="zoom-in" class="physics media"><video controls>
+            <source src="' . htmlspecialchars($webPath) . '" type="video/mp4">
+            Your browser does not support the video tag.
+        </video></div>';
+    } elseif (in_array($ext, $panoExtensions)) {
+        echo '<div data-aos="zoom-in" class="physics media"><iframe src="' . htmlspecialchars($webPath) . '" frameborder="0" allowfullscreen></iframe></div>';
+    }
+}
+
+ob_end_flush();
+?>
+
+<img src="" alt="">

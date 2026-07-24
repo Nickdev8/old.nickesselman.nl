@@ -1,17 +1,8 @@
-name: nickesselman-nl
 services:
-  caddy:
-    image: caddy:2-alpine
-    restart: unless-stopped
-    depends_on: [php]
+  web:
+    image: php:8.3-apache
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
     ports:
-      - "127.0.0.1:3010:80"   # keep 3010 now that we freed it
-    volumes:
-      - ./site:/srv/site
-      - ./Caddyfile:/etc/caddy/Caddyfile
-
-  php:
-    image: php:8.2-fpm-alpine
-    restart: unless-stopped
-    volumes:
-      - ./site:/srv/site
+      - "3010:80"
