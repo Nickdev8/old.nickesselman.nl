@@ -1,8 +1,10 @@
 services:
   web:
     image: php:8.3-apache
+    restart: unless-stopped
     working_dir: /var/www/html
     volumes:
       - ./:/var/www/html
+      - ./apache-security.conf:/etc/apache2/conf-enabled/old-site-security.conf:ro
     ports:
       - "3010:80"
